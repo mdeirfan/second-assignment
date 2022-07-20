@@ -67,10 +67,12 @@ main {
 /* mid thing start */
 .mid-thing {
     display: flex;
+    column-gap: 24px;
 }
 
 .side-box {
     width: 312px;
+    height: 312px;
     display: grid;
     grid-template-rows: 1, 1fr;
     row-gap: 30px;
@@ -102,15 +104,22 @@ main {
 /* players style */
 .players {
     margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+    
 }
 
 .player {
-    width: 312px;
+    width: 312;
     height: 362px;
     border: 1px solid rgb(235, 231, 231);
     border-radius: 10px;
 }
-
+.player img{
+    width: 100%;
+}
 .text-portion {
     padding: 20px 20px;
 }
@@ -123,3 +132,4 @@ main {
     display: flex;
     align-items: center;
 }
+/* footer style */
