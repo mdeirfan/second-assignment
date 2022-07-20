@@ -96,6 +96,16 @@ main {
 
 }
 
+.side-box a {
+    text-decoration: none;
+    color: black;
+}
+
+.special:hover {
+    background-color: lightgreen;
+
+}
+
 .side-box .be {
     background-color: #DD0000;
     color: azure;
@@ -169,4 +179,5 @@ hr {
     color: #B9B9B9;
     font-weight: 500;
 }
+
 /* FOOTER COMPLETED */
