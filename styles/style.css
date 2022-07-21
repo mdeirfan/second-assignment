@@ -10,7 +10,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 140px;
+    width: 100%;
+    margin: 0px;
 }
 
 /*------ main player styles  ---------------------*/
@@ -20,6 +21,8 @@ main {
     color: white;
     background-color: black;
     border-radius: 30px;
+    width: 100%;
+
 
 
 
@@ -150,6 +153,8 @@ main {
 .footer {
     background-color: black;
     padding: 130px 140px;
+    margin: 0;
+
 }
 
 .footer-heading {
@@ -170,14 +175,22 @@ hr {
 .footer-items {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding-left: 223px;
-    padding-right: 223px;
+    justify-items: center;
+
 
 }
 
 .item {
     color: #B9B9B9;
     font-weight: 500;
+    font-size: 16px;
+
 }
 
 /* FOOTER COMPLETED */
+/* ---------------------------------
+           media query
+----------------------------------- - */
+
+/* MOBILE DEVICES */
+@media only screen and (max-width:688px) {}
